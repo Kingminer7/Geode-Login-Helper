@@ -1,6 +1,14 @@
 {
   "dependencies": {
-    "axios": "^1.7.2",
-    "open": "^10.1.0"
-  }
+    "axios": "^1.7.2"
+  },
+  "name": "geode-login-helper",
+  "version": "1.0.0",
+  "description": "helps geode login",
+  "main": "index.js",
+  "author": "km7dev",
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "ISC"
 }

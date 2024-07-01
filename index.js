@@ -19,7 +19,6 @@ function waitForEnter() {
       headers: {}
     }).then(async response => {
       const uuid = response.data.payload.uuid; // Assuming the UUID is returned in the response body
-      console.log("UUID: " + uuid);
       console.log("Code: " + response.data.payload.code);
       console.log("Go to " + response.data.payload.uri + " and enter the code.");
       console.log("Press enter to continue...");
